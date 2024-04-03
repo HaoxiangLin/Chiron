@@ -102,6 +102,12 @@ An example call to Chiron to run basecalling is:
 chiron call -i <input_fast5_folder> -o <output_folder> -m <model_folder>
 
 ```
+* if meet object not found error, run command below*
+```
+python chiron/utils/extract_sig_ref.py  -i <input_fast5_floder> -o <output_folder> -m <model_folder> 
+
+```
+And rerun the chiron call
 
 ### If installed from Github:
 
