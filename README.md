@@ -111,7 +111,7 @@ All Chiron functionality can be run from **entry.py** in the Chiron folder. (You
 python chiron/entry.py call -i <input_fast5_folder> -o <output_folder> -m <model_folder>
 
 ```
-
+Dont use conda to install, it will meet bugs.
 ### Test run
 
 We provide 5 sample fast5 files for DNA(courtesy of [nanonet](https://github.com/nanoporetech/nanonet)) and 5 sample files for RNA in the GitHub repository and two models (DNA_default and RNA_default) which you can run a test on. These are located in `chiron/example_data/`. From inside the Chiron repository:
