@@ -280,7 +280,8 @@ def glue_kernal(bpread,prev_bpread):
     """
     prev_n = len(prev_bpread)
     n = len(bpread)    
-    max_overlap = min(math.floor(0.1 * prev_n),n)
+    #max_overlap = min(math.floor(0.1 * prev_n),n) # fix a range bug
+    max_overlap = int(min(math.floor(0.1 * prev_n),n))
     max_hit_disp = (0,0)
     for i in range(1,max_overlap):
         head=bpread[:i]
