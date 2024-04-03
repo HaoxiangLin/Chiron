@@ -21,7 +21,7 @@ install_requires=[
   'statsmodels>=0.8.0',
   'tqdm>=4.23.0',
   'scipy>=1.0.1',
-  'biopython>=1.73',
+  'biopython==1.73',
   'packaging>=18.0'
 ]
 extras_require={
